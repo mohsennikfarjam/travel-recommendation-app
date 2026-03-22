@@ -1,0 +1,24 @@
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Project artifacts (not part of the final website)
+FINAL_SUBMISSION_TEXT.txt
+travel_bloom_project.zip
+gh_repo/
+*.webp
+*.png
+!images/beach.png
+!images/temple.png
+!images/country.png
+/tmp/
+.gemini/
+brain/
+task.md
+implementation_plan.md
+walkthrough.md

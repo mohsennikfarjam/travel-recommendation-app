@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TravelBloom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>TravelBloom</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword...">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+        </div>
+    </nav>
+
+    <main class="content-page">
+        <section class="contact-section">
+            <h1>Contact Us</h1>
+            <div class="contact-flex">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions? We'd love to hear from you.</p>
+                    <p><strong>Email:</strong> info@travelbloom.com</p>
+                    <p><strong>Phone:</strong> +1 (555) 000-0000</p>
+                    <p><strong>Location:</strong> 123 Travel Way, Adventure City</p>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
