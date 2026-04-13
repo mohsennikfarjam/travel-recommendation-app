@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Your Journey Starts Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>TravelBloom</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword (beach, temple, country)...">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>EXPLORE THE WORLD</h1>
+                <p>Discover breathtaking destinations, cultural wonders, and unforgettable experiences tailored just for you. Your dream journey begins with TravelBloom.</p>
+                <a href="#" class="btn-book">Book Now</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </section>
+
+        <section id="resultsContainer" class="results-container">
+            <!-- Results will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
